@@ -6,8 +6,8 @@ import iconDice from "../assets/icon-dice.svg";
 
 const AdviceApp = () => {
   const [advice, setAdvice] = useState({
-    heading: "66",
-    text: "Take time once in a while to look up at the stars for at least 5 minutes, in order to comprehend your cosmic significance.",
+    heading: "115",
+    text: "One of the top five regrets people have is that they didn't have the courage to be their true self.",
   });
   const url = "https://api.adviceslip.com/advice";
   const fetchAdvice = async () => {
